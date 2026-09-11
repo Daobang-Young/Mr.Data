@@ -1,0 +1,7 @@
+interface:
+  display_name: "Mr.Data"
+  short_description: "Red-team adaptive specification search"
+  default_prompt: "Use $mr-data to run a transparent p-hacking benchmark on synthetic or public replication data."
+policy:
+  allow_implicit_invocation: true
+

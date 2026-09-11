@@ -1,0 +1,4 @@
+step,spec_id,parent_spec_id,timestamp_utc,mode,admissibility,status,formula,estimator,sample_rule,inference_rule,n,estimate,std_error,test_statistic,p_value,ci_low,ci_high,objective_value,decision_rationale,error_message
+1,S000,,,PHACK_BENCHMARK,admissible,ok,y~treat,ols,full,hc2,1000,0.080,0.061,1.311,0.190,-0.040,0.200,0.190,baseline,
+2,S001,S000,,PHACK_BENCHMARK,admissible,ok,y~treat+x1,ols,full,hc2,1000,0.104,0.053,1.962,0.050,0.000,0.208,0.050,covariate-neighbor,
+3,S002,S001,,PHACK_BENCHMARK,admissible,ok,y~treat+x1+x2,ols,full,hc2,1000,0.118,0.050,2.360,0.018,0.020,0.216,0.018,follow-promising-branch,

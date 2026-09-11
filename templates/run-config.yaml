@@ -1,0 +1,15 @@
+mode: "PHACK_BENCHMARK"
+data_category: "synthetic"
+data_source: ""
+estimand: ""
+target_coefficient: "treatment"
+preferred_direction: "positive"
+objective: "min_directional_p"
+baseline_specification: ""
+admissible_dimensions: []
+hard_exclusions: []
+max_evaluations: 200
+seed: 2026
+alpha_thresholds: [0.10, 0.05, 0.01]
+tie_breaker: "larger_absolute_t"
+
